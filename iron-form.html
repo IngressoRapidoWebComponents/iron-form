@@ -131,6 +131,18 @@ attach it to the `<iron-form>`:
          * `allowRedirect` is false.
          */
         withCredentials: {type: Boolean, value: false},
+        /**
+         * Sets the native `action` form attribute
+         */
+        action: {type: String},
+        /**
+         * Sets the native `method` form attribute
+         */
+        method: {type: String},
+        /**
+         * Sets the native `enctype` form attribute
+         */
+        enctype: {type: String}
       },
       /**
        * Fired if the form cannot be submitted because it's invalid.
